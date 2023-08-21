@@ -8,14 +8,11 @@ using namespace std;
         int area=(r-l)*min(arr[l],arr[r]);
         maxarea=max(maxarea,area);
             if(arr[l]<arr[r]){
-                l+=1;
+                l++;
             }
-            else if (arr[r]<arr[l])
-            {
-                r-=1;
-            }
+          
             else{
-                r-=1;
+                r--;
             }
             
         }
