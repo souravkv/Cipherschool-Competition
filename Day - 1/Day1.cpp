@@ -25,6 +25,6 @@ int main(){
     int height[]={1,8,6,2,5,4,8,3,7};
     int n=sizeof(height)/sizeof(height[0]);
     //cout<<n<<"\n";
-    cout<<maxArea(height,n);
+    cout<<"container with maximum capacity is : "<<maxArea(height,n);
 
 }
